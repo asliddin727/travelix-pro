@@ -12,6 +12,7 @@
     --colorBlack: #474747;
     --colorWhite: #FFFFFF;
     --bgColor: #FFFBF3;
+    --grey: #f5f5f5;
 }
 
 html{
@@ -86,4 +87,167 @@ ul, ol{
     padding: 1rem 4rem;
     margin-left: 5.2rem;
 }
+
+/* hero start */
+.hero{
+    display: flex;
+}
+
+.hero .hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 18.5rem;
+}
+
+.hero .hero-left .imgLeft{
+    position: absolute;
+    top: 9.4rem;
+    left: 0;
+}
+
+.hero .hero-left h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--colorBlack);
+    line-height: 10rem;
+}
+
+.hero .hero-left h1 span{
+    color: var(--colorBrown);
+}
+
+.hero .hero-left .desc{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--colorBlack);
+    width: min(100% - 2rem, 45rem);
+    line-height: 2.5rem;
+}
+
+.hero .hero-left .paragraph{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--colorBlack);
+    width: min(100% - 2rem, 45rem);
+    line-height: 2.3rem;
+    margin-top: 3rem;
+}
+
+.form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 6rem;
+    background-color: var(--grey);
+    border: .1rem solid var(--colorBlack);
+    border-radius: 1rem;
+    padding: 1.7rem 3.7rem;
+    width: min(100% - 2rem, 80rem);
+    z-index: 11111;
+}
+
+.form div label{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--colorBlack);
+    line-height: normal;
+}
+
+.form div input{
+    border: none;
+    outline-color: var(--colorBrown);
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    width: fit-content;
+    outline: none;
+}
+
+.form .check-in span, 
+.form .check-out span{
+    display: flex;
+    align-items: center;
+    width: min(100% - 1rem, 25rem);
+    border-radius: .5rem;
+    background-color: var(--colorWhite);
+    position: relative;
+    padding-right: 0 1rem;
+    outline-width: .2rem;
+}
+
+.form .check-in span input, 
+.form .check-out span input{
+    width: min(100% - 1.8rem, 18rem);
+    outline-width: 0;
+}
+
+.form .check-in span i, 
+.form .check-out span i{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.6rem;
+    color: var(--grey);
+}
+
+
+.btn-submit{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorBrown);
+    border-radius: .5rem;
+}
+
+.btn-submit input{
+    background-color: transparent;
+    color: var(--colorWhite);
+    font-size: 2rem;
+    font-weight: 600;
+    border: .1rem solid var(--colorBrown);
+    cursor: pointer;
+
+}
+
+.btn-submit i{
+    font-size: 1.8rem;
+    padding-right: 1rem;
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+
+.hero-right > img{
+    position: absolute;
+    right: 0;
+}
+
+.hero-right .img-group{
+    position: relative;
+    margin-left: auto;
+    width: min(100% - 2rem, 59rem);
+    height: 68rem;
+}
+
+
+.hero-right .img-group img:nth-child(1){
+    position: absolute;
+    top: 1.1rem;
+    right: 0;
+}
+
+.hero-right .img-group img:nth-child(2){
+    position: absolute;
+    top: 1.1rem;
+    right: 25rem;
+    z-index: 111;
+}
+
+.hero-right .img-group img:nth-child(3){
+    position: absolute;
+    right: 0rem;
+    bottom: 10rem;
+    z-index: 111;
+}
+
+/* hero end */
 /* Header end */
