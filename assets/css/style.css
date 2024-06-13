@@ -38,3 +38,52 @@ ul, ol{
     width: 128rem;
     margin: 0 auto;
 }
+
+/* Header start */
+.header{
+    padding: 3.2rem;
+    width: 100vw;
+}
+
+.header .nav, 
+.header .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--colorBrown);
+}
+
+.logo h1 span{
+    color: var(--colorBlack);
+}
+
+.header .nav .navbar{
+    margin-left: auto;
+    gap: 4rem;
+}
+
+.navbar .nav-item{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--colorBlack);
+    cursor: pointer;
+}
+
+.navbar .nav-item:hover{
+    color: var(--colorBrown);
+}
+
+.nav .sign-up{
+    background-color: var(--colorBrown);
+    color: var(--colorWhite);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    padding: 1rem 4rem;
+    margin-left: 5.2rem;
+}
+/* Header end */
