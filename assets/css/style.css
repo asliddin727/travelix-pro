@@ -251,3 +251,68 @@ ul, ol{
 
 /* hero end */
 /* Header end */
+
+/* why choose start */
+.why-choose{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.why-choose,
+.wchu-right,
+.list, 
+.list-item{
+    display: flex;
+    align-items: flex-start;
+}
+
+.wchu-left{
+    position: absolute;
+    left: -13rem;
+}
+
+.wchu-right{
+    position: absolute;
+    width: 57rem;
+    right: 0;
+}
+
+.wchu-right,
+.list{
+    flex-direction: column;
+}
+
+.wchu-right p{
+    margin-top: 1.4rem;
+    margin-bottom: 4.5rem;
+}
+
+.list,
+.list-item{
+    gap: 3rem;
+}
+
+.wchu-right h2{
+    font-size: 4rem;
+    color: var(--colorBlack);
+}
+
+.wchu-right p{
+    font-size: 1.6rem;
+    color: var(--colorBlack);
+}
+
+.list-item .desc h4{
+    font-size: 2.2rem;
+    color: var(--colorBlack);
+}
+
+.list-item .desc span{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: var(--colorBlack);
+}
+
+
+
+/* why choose end */
